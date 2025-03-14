@@ -1,0 +1,78 @@
+*{
+    background-color: rgb(255, 248, 225);
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 44px;
+    color: rgb(170, 85, 0);
+}
+
+.pagina{
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    width: max-content;
+    border: 9px solid rgb(255, 101, 80);
+}
+
+.menu{
+    list-style: none;
+    padding: 0px;
+}
+
+.menu li{
+    padding: 5px 0;
+}
+
+.menu a{
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgb(255, 165, 0);
+}
+
+.menu a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(200, 85, 0);
+    transition: all 0.92s;
+}
+
+footer{
+    background-color: transparent;
+    padding: 12px;
+    text-align: center;
+}
+
+
+.footer-links a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+}
+.linkedin {
+    background-color: rgb(10, 102, 194);
+}
+
+.linkedin:hover {
+    background-color: rgb(8, 80, 160);
+}
+
+.github {
+    background-color: rgb(36, 41, 46);
+}
+
+.github:hover {
+    background-color: rgb(24, 26, 27);
+}
